@@ -1,5 +1,5 @@
-1. Dynamic Call History 
-2. Clear Call History List
+1. Dynamic Call History ✅
+2. Clear Call History List ✅
 3. Clicking on the 💗 **heart icon** of any card will increase the count in the Navbar
 4. Call Buttons
 - On clicking a card's **Call Button**, following actions will happen:
@@ -12,3 +12,4 @@
 
 5.On clicking the **Copy button**, show an alert and **increase the copy count**
   Hotline number will be **copied on click** so it can be pasted anywhere
+6. add beautiful alert on every interactions
