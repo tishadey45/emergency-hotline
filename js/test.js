@@ -3,6 +3,10 @@ const callButtons = document.querySelectorAll(".call-button");
 // selecting the call history container
 const callHistoryContainer = document.getElementById("call-history-container");
 
+// clear call history button
+const clearHistoryButton = document.getElementById("clear-history-button");
+
+
 // adding event listener to each call button
 callButtons.forEach((button) => {
   button.addEventListener("click", function (event) {
@@ -32,3 +36,13 @@ callButtons.forEach((button) => {
 callHistoryContainer.prepend(historyItem);
   });
 });
+
+
+
+// clear call history list
+clearHistoryButton.addEventListener("click",function(){
+    callHistoryContainer.innerHTML="";
+})
+
+
+
